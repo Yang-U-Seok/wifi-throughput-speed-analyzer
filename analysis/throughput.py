@@ -1,10 +1,13 @@
 import pyshark
-
+TSHARK_PATH = r"C:\Program Files\Wireshark\tshark.exe"
 PCAP_PATH = "../data/wifi_test_10s.pcapng"
 
 def calculate_throughput(pcap_path):
-    cap = pyshark.FileCapture(pcap_path, keep_packets=False)
-
+    cap = pyshark.FileCapture(
+    pcap_path,
+    keep_packets=False,
+    tshark_path=TSHARK_PATH
+)
     total_bytes = 0
     start_time = None
     end_time = None
