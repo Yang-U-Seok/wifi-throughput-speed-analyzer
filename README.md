@@ -25,9 +25,18 @@
 4. 처리량을 기반으로 전송 속도(Mbps) 계산 및 결과 저장
 
 ## Outputs
-- 시간 단위별 평균 처리량 그래프
-- Wi-Fi 네트워크 간 처리량 비교 결과  
-(현재 구현 예정)
+- 평균 처리량(Observed Throughput) 계산 결과
+- 시간 단위별 처리량 시각화 (예정)
+- Wi-Fi 네트워크 간 처리량 비교 (예정)
+
+## Experiment 1: YouTube 1080p streaming 
+- Input PCAP: `data/wifi_test_10s.pcapng`
+- Parsed lines: 5073 | Skipped lines: 0
+- Total bytes transmitted (Σ frame.len): 5729197 bytes
+- Measurement duration (Δt): 9.875 seconds
+- Observed throughput (T_obs): 4.641 Mbps
+
+본 실험은 실제 환경에서 1080p 스트리밍 시 관찰되는 처리량을 측정하여 실제 네트워크 성능을 반영한다.
 
 ## Limitations
 - 무선 어댑터 및 운영체제에 따라 캡처 가능한 정보에 제약이 있을 수 있음  
