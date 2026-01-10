@@ -38,6 +38,11 @@
 
 본 실험은 실제 환경에서 1080p 스트리밍 시 관찰되는 처리량을 측정하여 실제 네트워크 성능을 반영한다.
 
+## Experiment 1 Result
+
+- Observed throughput over time (0.1s bins, log scale):
+- ![Experiment 1 Throughput](outputs/exp1_throughput_log_0.1s.png)
+
 ## Limitations
 - 무선 어댑터 및 운영체제에 따라 캡처 가능한 정보에 제약이 있을 수 있음  
 (추후 상세 기술 예정)
