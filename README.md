@@ -41,8 +41,7 @@
 ## Experiment 1 Result
 
 - Observed throughput over time (0.1s bins, log scale):
-- ![Experiment 1 Throughput](outputs/exp1_throughput_log_0.1s.png)
-- 본 그래프는 YouTube 1080p 스트리밍 중 0.1초 단위로 측정한 처리량을 나타낸다. 스트리밍 특성상 데이터가 연속적으로 전송되지 않고, 짧은 시간 동안 높은 처리량이 집중되는 버스트(bursty) 패턴이 관찰된다기
+- ![Experiment 1 Throughput](outputs/exp1_throughput_log_0.1s.png) 본 그래프는 YouTube 1080p 스트리밍 중 0.1초 단위로 측정한 처리량을 나타낸다. 스트리밍 특성상 데이터가 연속적으로 전송되지 않고, 짧은 시간 동안 높은 처리량이 집중되는 버스트(bursty) 패턴이 관찰된다기
 
 ## Limitations
 - 무선 어댑터 및 운영체제에 따라 캡처 가능한 정보에 제약이 있을 수 있음  
