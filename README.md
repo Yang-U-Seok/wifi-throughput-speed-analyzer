@@ -30,12 +30,11 @@
 - Wi-Fi 네트워크 간 처리량 비교 (예정)
 
 ## Experiment 1: YouTube 1080p streaming 
-- Input PCAP: `data/wifi_test_10s.pcapng`
-- Parsed lines: 5073 | Skipped lines: 0
-- Total bytes transmitted (Σ frame.len): 5729197 bytes
-- Measurement duration (Δt): 9.875 seconds
-- Observed throughput (T_obs): 4.641 Mbps
-
+- PCAP: C:\Users\nanev\Documents\exp1_wifi_test_10s.pcapng
+- Parsed lines: 14364 | Skipped lines: 0
+- Total bytes transmitted (Σ frame.len): 15829063 bytes
+- Measurement duration (Δt): 10.715 seconds
+- Observed throughput (T_obs): 11.818 Mbps
 본 실험은 실제 환경에서 1080p 스트리밍 시 관찰되는 처리량을 측정하여 실제 네트워크 성능을 반영한다.
 
 ## Experiment 1 Result
