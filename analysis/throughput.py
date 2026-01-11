@@ -13,7 +13,7 @@ import subprocess
 TSHARK_PATH = r"C:\Program Files\Wireshark\tshark.exe"
 
 # ✅ PCAP 파일 절대경로 (네 PC에 맞게 수정)
-PCAP_PATH = r"C:\Users\nanev\Documents\wifi_test_10s.pcapng"
+PCAP_PATH = r"C:\Users\nanev\Documents\exp1_wifi_test_10s.pcapng"
 
 
 def calculate_throughput_with_tshark(pcap_path: str, tshark_path: str = TSHARK_PATH):
