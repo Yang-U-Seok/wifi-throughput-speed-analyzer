@@ -39,18 +39,17 @@
 - 시간 단위별 처리량 시각화 (예정)
 - Wi-Fi 네트워크 간 처리량 비교 (예정)
 
-## Experiment 1: YouTube 1080p streaming (Near AP)
+## Experiment 1 Environment: YouTube 1080p streaming (Near AP)
 - Wi-Fi AP: iptime_ws (AP #1)
 - AP location: Same room (near distance)
 - Measurement duration: ~10 seconds
 
-## Experiment 1: YouTube 1080p streaming 
+## Experiment 1: YouTube 1080p streaming (Near AP)
 - PCAP: C:\Users\nanev\Documents\exp1_wifi_test_10s.pcapng
 - Parsed lines: 14364 | Skipped lines: 0
 - Total bytes transmitted (Σ frame.len): 15829063 bytes
 - Measurement duration (Δt): 10.715 seconds
 - Observed throughput (T_obs): 11.818 Mbps
-본 실험은 실제 환경에서 1080p 스트리밍 시 관찰되는 처리량을 측정하여 실제 네트워크 성능을 반영한다.
 
 ## Experiment 1 Result
 
@@ -58,11 +57,22 @@
  ![Experiment 1 Throughput](outputs/exp1_throughput_output.png)
 - 본 그래프는 YouTube 1080p 스트리밍 중 0.1초 단위로 측정한 처리량을 로그 스케일로 시각화한 결과이다. 스트리밍 특성상 데이터가 연속적으로 전송되지 않고, 짧은 시간 동안 높은 처리량이 집중되는 bursty 전송 패턴이 반복적으로 관찰된다. 이는 adaptive streaming과 TCP 기반 전송의 일반적인 특성을 반영한 결과이다.
   
-## Experiment 2: YouTube 1080p streaming (Far AP)
+## Experiment 2 Environment: YouTube 1080p streaming (Far AP)
 - Wi-Fi AP: U+Net0861 (AP #2)
 - AP location: Living room (farther distance)
 - Measurement duration: ~10 seconds
 
+## Experiment 2: YouTube 1080p streaming (Far AP)
+- PCAP: C:\Users\nanev\Documents\exp2_wifi_test_10s.pcapng
+- Parsed lines: 7193 | Skipped lines: 0
+- Total bytes transmitted (Σ frame.len): 8109291 bytes
+- Measurement duration (Δt): 10.595 seconds
+- Observed throughput (T_obs): 6.123 Mbps
+
+## Experiment2 Result
+- Observed throughput over time (0.1s bins, log scale):
+  
+  
 ## Limitations
 - 무선 어댑터 및 운영체제에 따라 캡처 가능한 정보에 제약이 있을 수 있음  
 (추후 상세 기술 예정)
