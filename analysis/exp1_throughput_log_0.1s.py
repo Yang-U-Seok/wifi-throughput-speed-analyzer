@@ -6,7 +6,7 @@ from pathlib import Path
 import numpy as np
 
 TSHARK_PATH = r"C:\Program Files\Wireshark\tshark.exe"
-PCAP_PATH   = r"C:\Users\nanev\Documents\wifi_test_10s.pcapng"
+PCAP_PATH   = r"C:\Users\nanev\Documents\exp1_wifi_test_10s.pcapng"
 BIN_SIZE    = 0.1
 
 def load_pcap_df(pcap_path: str, tshark_path: str = TSHARK_PATH) -> pd.DataFrame:
