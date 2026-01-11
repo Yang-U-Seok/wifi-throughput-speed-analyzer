@@ -66,14 +66,14 @@ def plot_throughput_B_log_safe(bin_starts, mbps, bin_size: float, eps: float = 1
 
     plt.figure(figsize=(10, 5))
     plt.plot(bin_starts, y, linewidth=1)  # marker 제거
-    plt.title(f"Experiment 1: Throughput over Time ({bin_size}s bins)")
+    plt.title(f"Experiment 2: Throughput over Time ({bin_size}s bins)")
     plt.xlabel("Time (s)")
     plt.ylabel("Throughput (Mbps) (log scale, eps applied)")
     plt.yscale("log")
     plt.grid(True, which="both")
     plt.tight_layout()
 
-    plt.savefig("exp1_throughput_B_log_safe.png", dpi=200, bbox_inches="tight")
+    plt.savefig("exp2_throughput_B_log_safe.png", dpi=200, bbox_inches="tight")
     plt.show()
 
 if __name__ == "__main__":
