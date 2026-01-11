@@ -71,6 +71,12 @@
 ## Experiment2 Result
 - Observed throughput over time (0.1s bins, log scale):
 ![Experiment 2 Throughput](outputs/exp2_throughput_output.png)  
+
+## Experiment 1 vs Experiment 2 Comparison
+- Experiment 1과 Experiment 2는 동일한 환경과 트래픽 조건에서 Wi-Fi Access Point(AP)와 단말 간의 거리만을 변화시켜 수행한 실험이다.
+- Experiment 1에서는 AP가 단말과 동일한 공간에 위치하여 상대적으로 안정적이고 높은 처리량이 관찰되었으며, 시간에 따른 처리량 변동 또한 비교적 작게 나타났다.
+- Experiment 2에서는 AP가 거실에 위치하여 단말과의 거리가 증가함에 따라 평균 처리량이 감소하고, 처리량의 시간적 변동성이 증가하는 경향을 보였다. 이는 거리 증가로 인한 무선 채널 품질 저하 및 재전송 증가의 영향으로 해석할 수 있다.
+-이 결과는 동일한 네트워크 환경에서도 AP와 단말 간의 상대적 위치 변화가 실제 체감 성능에 유의미한 영향을 미칠 수 있음을 보여준다.
   
 ## Limitations
 - 무선 어댑터 및 운영체제에 따라 캡처 가능한 정보에 제약이 있을 수 있음  
